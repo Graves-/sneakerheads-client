@@ -1,0 +1,83 @@
+{
+  "config": {
+    "title": "Sneakerhead Project",
+    "description": "Awesome Documentation",
+    "themeConfig": {},
+    "ordering": "descending",
+    "version": "0.1.0",
+    "repository": null
+  },
+  "entries": {
+    "src/components/UI/BrandDropdown/BrandDropdown.mdx": {
+      "name": "BrandDropdown",
+      "menu": "Components",
+      "id": "2f3ecadccd1473d715b2cd90bacde43f",
+      "filepath": "src/components/UI/BrandDropdown/BrandDropdown.mdx",
+      "link": null,
+      "slug": "src-components-ui-brand-dropdown-brand-dropdown",
+      "route": "/src-components-ui-brand-dropdown-brand-dropdown",
+      "order": 0,
+      "headings": [
+        {
+          "depth": 1,
+          "slug": "branddropdown",
+          "value": "BrandDropdown"
+        },
+        {
+          "depth": 2,
+          "slug": "basic-usage",
+          "value": "Basic Usage"
+        }
+      ]
+    },
+    "src/components/UI/SneakerDropdown/SneakerDropdown.mdx": {
+      "name": "SneakerDropdown",
+      "menu": "Components",
+      "id": "bf46ee2810480a5d191e2a553e982aee",
+      "filepath": "src/components/UI/SneakerDropdown/SneakerDropdown.mdx",
+      "link": null,
+      "slug": "src-components-ui-sneaker-dropdown-sneaker-dropdown",
+      "route": "/src-components-ui-sneaker-dropdown-sneaker-dropdown",
+      "order": 0,
+      "headings": [
+        {
+          "depth": 1,
+          "slug": "sneakerdropdown",
+          "value": "SneakerDropdown"
+        },
+        {
+          "depth": 2,
+          "slug": "basic-usage",
+          "value": "Basic Usage"
+        }
+      ]
+    },
+    "src/components/UI/SneakerList/SneakerList.mdx": {
+      "name": "SneakerList",
+      "menu": "Components",
+      "id": "88cbfe1ba4ce36e27d16818bac3b04ac",
+      "filepath": "src/components/UI/SneakerList/SneakerList.mdx",
+      "link": null,
+      "slug": "src-components-ui-sneaker-list-sneaker-list",
+      "route": "/src-components-ui-sneaker-list-sneaker-list",
+      "order": 0,
+      "headings": [
+        {
+          "depth": 1,
+          "slug": "sneakerlist",
+          "value": "SneakerList"
+        },
+        {
+          "depth": 2,
+          "slug": "basic-usage",
+          "value": "Basic Usage"
+        },
+        {
+          "depth": 2,
+          "slug": "data-used",
+          "value": "Data Used"
+        }
+      ]
+    }
+  }
+}
