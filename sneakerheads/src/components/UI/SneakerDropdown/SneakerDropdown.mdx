@@ -1,0 +1,19 @@
+---
+name: SneakerDropdown
+menu: Components
+---
+
+import SneakerDropdown  from './SneakerDropdown';
+import { SneakerMock } from '../SneakerList/__mocks__/sneakerMockData';
+import { Playground } from 'docz';
+
+
+# SneakerDropdown
+
+
+## Basic Usage
+<Playground>
+    <div style={{paddingBottom: 150}}>
+        <SneakerDropdown sneakers={SneakerMock} onSelect={ sneakerId => { alert('selected sneaker: ' + sneakerId) }} />
+    </div>
+</Playground>

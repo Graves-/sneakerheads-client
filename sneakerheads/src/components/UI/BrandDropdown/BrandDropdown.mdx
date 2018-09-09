@@ -1,0 +1,19 @@
+---
+name: BrandDropdown
+menu: Components
+---
+
+import BrandDropdown  from './BrandDropdown';
+import { BrandMock } from './__mocks__/BrandMockData';
+import { Playground } from 'docz';
+
+
+# BrandDropdown
+
+
+## Basic Usage
+<Playground>
+    <div style={{paddingBottom: 150}}>
+        <BrandDropdown brands={BrandMock} onSelect={ brandId => { alert('selected brand: ' + brandId) }} />
+    </div>
+</Playground>

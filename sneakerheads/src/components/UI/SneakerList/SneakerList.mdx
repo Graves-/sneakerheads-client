@@ -1,0 +1,24 @@
+---
+name: SneakerList
+menu: Components
+---
+
+import SneakerList  from './SneakerList';
+import { SneakerMock } from './__mocks__/sneakerMockData';
+import { Playground } from 'docz';
+
+
+# SneakerList
+
+
+## Basic Usage
+<Playground>
+    <SneakerList sneakers={SneakerMock} />
+</Playground>
+
+## Data Used
+<Playground>
+    <div>
+        <pre>{JSON.stringify(SneakerMock)}</pre>
+    </div>
+</Playground>
